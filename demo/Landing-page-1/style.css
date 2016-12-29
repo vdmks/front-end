@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	box-sizing: border-box;
+}
+html {
+	min-height: 100%;
+	height: auto;
+}
+
+body {
+	height: 100%;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+/*colors*/
+
+.links a {
+	color: #ffffff;
+}
+
+.join em, span {
+	color: #ffffff;
+}
+
+.what-you,
+.join-us {
+	background: #262a34;
+	color: #ffffff;
+}
+
+.some-words {
+	background: #41e0d8;
+}
+	.some-words strong {
+		color: #ffffff;
+	}
+
+/*container*/
+
+.container {
+	position: relative;
+}
+
+/*header*/
+
+.header {
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: 100%; 
+}
+
+.wrap {
+	width: 960px; 
+	margin: 0 auto;
+}
+
+	.wrap strong, em {
+		font-size: 32px;
+	}
+
+	.links {
+		display: flex;
+	}
+		.links a {
+			text-decoration: none;
+		}
+
+		.get-subscr {
+			display: inline-block;
+			flex-grow: 1;
+			line-height: 100px;
+			text-align: right;
+		}
+
+			.get-subscr a {
+				padding: 20px 40px;
+			}
+
+			.get-subscr a:hover {
+				padding: 20px 40px;
+				background: #262a35;
+			}
+
+		.phone-join {
+			padding: 100px 0 0 0;
+		}
+
+			.phone {
+	    		position: relative;
+	    		display: inline-block;
+				height: 600px;
+	    		width: 320px;
+	    		padding: 63px 0 0 0;
+			}
+
+			.join  {
+				height: 600px;
+	    		width: 640px;
+	    		display: inline-block;
+	    		position: absolute; 
+	    		padding: 100px 0 0 40px;
+			}
+
+
+				.join span  {
+	    			padding: 40px 0 0 0;
+	    			display: block;
+	    			text-align: left;
+				}
+					.join p {
+	    				padding: 20px 0 0 0;
+	    			}
+
+		.button-google {
+			padding: 80px 0;
+		}
+
+/*content*/
+
+/*What you get*/
+
+.content {
+	
+}
+
+.what-you {
+	padding: 200px 0;
+	margin: -10px;
+	position: relative;
+} 
+
+.what-you-txt-img-wrap {
+	text-align: center;
+}
+
+.what-you-get-txt { 
+	display: inline-block; 
+	vertical-align: middle;
+	text-align: left;
+	width: 460px;
+}
+
+	.what-you-get-txt strong {
+		padding: 0 0 40px 0;
+		display: block;
+	}
+
+	.what-you-get-txt p {
+		padding: 20px 0 0 0;
+	}
+
+	.what-you-get-txt a {
+		text-decoration: none;
+		color: #ffffff;
+		background: #41e0d8;
+		padding: 20px 40px;
+	}
+	.button {
+		padding: 80px 0 0 0;
+	}
+		.button a:hover {
+			background: #ffffff;color: #41e0d8;
+		}
+
+.what-you-get-img {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 40px;
+}
+
+	.what-you-get-img img {
+		width: 450px;
+		height: 250px; 
+	}
+
+/*Some words from our users*/
+
+.some-words {
+	position: relative;
+}
+
+	.some-words-title {
+		text-align: center;
+		padding: 200px 0 0 0;
+	}
+
+		.some-words p {
+			text-align: center;
+			padding: 20px 0 0 0;
+		}
+
+	.quote {
+		position: absolute;
+		display: inline-block;
+		background: #ffffff;
+		padding: 20px;
+		top: 50%;
+		margin: 0 0 0 40px;
+	}
+
+	.quote:before {
+		content: "";
+		width: 0; height: 0;
+		position: absolute; 
+		right: 100%; 
+		top: calc(50% - 12px);
+		border-top: 15px solid transparent;
+		border-right: 30px solid #ffffff;
+		border-bottom: 12px solid transparent;
+	}
+
+		.quote em {
+			font-size: 14px;
+		}
+
+		.quote p {
+			text-align: left;
+			padding: 10px 0;
+		}
+
+			.italic-quote {
+				padding: 20px 0;
+			}
+
+/*Join us*/
+
+.join-us {
+	margin: -10px;
+	position: relative;
+}
+
+.join-us p {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.join-us strong {
+	text-align: center;
+	padding: 80px 0 40px 0;
+	display: block;
+}
+
+.email-form {
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px 0 80px 0;
+}
+	.input-button {
+		padding: 0 0 0 10px;
+	}
+		.input-form input[type=email] {
+			padding: 0 0 0 20px;
+			height: 40px;
+			width: 350px;
+			background: #2B3C47;
+			outline: none;
+			border: none;
+			-webkit-appearance: none;
+			vertical-align: middle;
+			display: inline-block;
+		}
+
+		button {
+			width: 100px;
+			height: 40px;
+			cursor: pointer;
+			outline: none;
+			border: none;
+			text-align: center;
+			vertical-align: middle;
+			display: inline-block;
+			background: #ffffff;
+		}
+
+			button p {
+				color: #00E1FF;
+			}
+
+			button:hover {
+				background: #2B3C47;
+			}
+			
+			button p:hover {
+				color: #ffffff;
+			}
+
+		.input-form,
+		.input-button {
+			display: inline-block;
+		}
+
+
+/*footer*/
+
+footer {
+	position: absolute;
+	width: 100%;
+}
+
+	.footer-wrap {
+		text-align: center;
+		padding: 40px 0;
+	}
+
+		.footer-copy > a {
+			display: inline-block;
+			text-decoration: none;
+			color: #00E1FF;
+		}
+
+		.footer-copy p {
+			display: inline-block;
+		}
