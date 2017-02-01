@@ -1,2 +1,2 @@
 # front-end
-Examples online http://vdmks.byethost7.com
+Примеры онлайн http://vdmks.byethost7.com
